@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    transition: background-color 0.3s;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #e0e7df;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: none;
+    transition: display 0.3s;
+}
+
+.user-form-card {
+    transition: all 0.3s;
+}
+
+.theme-selector {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .card {
+        padding: 10px;
+    }
+}
+
+
+
+.dark-theme {
+    background: #333;
+    color: #757f7f;
+}
+
+
+.history-display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.user-entry {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.user-entry p {
+    margin: 0;
+}
+
+.user-entry button {
+    margin-top: 10px;
+}
+
+
+.newContainer{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
